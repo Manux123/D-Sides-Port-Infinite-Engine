@@ -1,0 +1,103 @@
+{
+    "name": "stage",
+    "defaultZoom": 0.6,
+    "hideGF": false,
+    "elements": [
+        {
+            "type": "sprite",
+            "props": {
+                "name": "stageback",
+                "path": "week1",
+                "position": [
+                    -1000,
+                    -490
+                ],
+                "scrollFactor": [
+                    1,
+                    1
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1.1,
+                    1.1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "week_1",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "character",
+            "id": "gf",
+            "position": [
+                402,
+                96
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "character",
+            "id": "dad",
+            "position": [
+                0.666668551949,
+                46.6666672091937
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "character",
+            "id": "bf",
+            "position": [
+                840.697639369111,
+                430.847229015552
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "BRIGHTLIGHTS",
+                "path": "week1",
+                "alpha": 0.05,
+                "position": [
+                    -1000,
+                    -490
+                ],
+                "scrollFactor": [
+                    1,
+                    1
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1.2,
+                    1.2
+                ],
+                "blend": "add",
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "BRIGHTLIGHTS",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        }
+    ]
+}
