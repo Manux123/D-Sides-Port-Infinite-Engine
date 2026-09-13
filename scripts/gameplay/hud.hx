@@ -70,10 +70,6 @@ function onNoteHitPlayer() {
 	onRatingPopup(playStateConfig.rating, playStateConfig.combo);
 }
 
-function onNoteHitMiss() {
-	onMissPopup();
-}
-
 function onRatingPopup(ratingName, combo) {
 	var pixelPart1 = 'normal/score/';
 	var pixelPart2 = '';
@@ -167,48 +163,6 @@ function _showComboNumbers(combo, pixelPart1, pixelPart2) {
 		});
 		daLoop++;
 	}
-}
-
-function onMissPopup() {
-	_killPoolInstant(missPool);
-
-	var rating = _getFromPool(missPool);
-	rating.alpha = 1;
-	rating.visible = true;
-
-	if (isPixel)
-		rating.loadGraphic(Paths.getPath('game/hud/pixel/score/miss-pixel', 'image'));
-	else
-		rating.loadGraphic(Paths.getPath('game/hud/normal/score/miss', 'image'));
-
-	rating.x = FlxG.width * 0.55 - 40;
-	rating.y = FlxG.height * 0.5 - 90;
-
-	if (!isPixel) {
-		rating.setGraphicSize(Std.int(rating.width * 0.7));
-		rating.antialiasing = SaveData.data.antialiasing;
-	} else {
-		rating.setGraphicSize(Std.int(rating.width * PIXEL_ZOOM * 0.7));
-		rating.antialiasing = false;
-	}
-	rating.updateHitbox();
-
-	// Bump appears
-	FlxTween.tween(rating, {"scale.x": rating.scale.x * 1.15, "scale.y": rating.scale.y * 1.15}, 0.07, {
-		ease: FlxEase.quadOut,
-		onComplete: function(_) {
-			FlxTween.tween(rating, {"scale.x": rating.scale.x / 1.15, "scale.y": rating.scale.y / 1.15}, 0.10, {
-				ease: FlxEase.quadIn
-			});
-		}
-	});
-	FlxTween.tween(rating, {alpha: 0}, 0.20, {
-		startDelay: 0.45,
-		ease: FlxEase.quadIn,
-		onComplete: function(_) {
-			rating.kill();
-		}
-	});
 }
 
 function _killPoolInstant(pool) {

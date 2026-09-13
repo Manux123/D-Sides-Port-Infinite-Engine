@@ -37,13 +37,6 @@
             "health": -0.03,
             "window": 166,
             "miss": true
-        },
-        {
-            "rating": "miss",
-            "path": "miss",
-            "score": -100,
-            "health": -0.04,
-            "miss": true
         }
     ]
 }
