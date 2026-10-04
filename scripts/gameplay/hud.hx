@@ -2,20 +2,15 @@ import utils.InfiniteUtil;
 import flixel.util.FlxStringUtil;
 import flixel.text.FlxTextBorderStyle;
 
-var scoreText:FlxText;
 var ratingPool = [];
 var numberPool = [];
 var comboPool = [];
 var missPool = [];
 
 function postCreate() {
-	scoreText = new FlxText(0, healthBarY + 30, FlxG.width, "Score: 0 | Misses: 0");
+	scoreText.text = "Score: 0 | Misses: 0";
 	scoreText.setFormat(Paths.getPath('tomo.otf', 'font'), 24, 0xFFFFFFFF, "center");
 	scoreText.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0xFF000000, 3, 1);
-	scoreText.antialiasing = SaveData.data.antialiasing;
-	scoreText.scrollFactor.set(0, 0);
-	scoreText.cameras = [camHUD];
-	add(scoreText);
 
 	healthBarBG.y -= 10.5;
 	healthBarBG.x -= 6;
@@ -59,8 +54,6 @@ function onDestroy() {
 	comboPool = [];
 	numberPool = [];
 	missPool = [];
-	scoreText.destroy();
-	scoreText = null;
 }
 
 var PIXEL_ZOOM = 6;
