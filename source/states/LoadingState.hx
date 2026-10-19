@@ -9,4 +9,9 @@ function postCreate() {
 	bg.screenCenter();
 	_bg = bg;
 	add(_bg);
+
+	_songLabel.visible = false;
+	_barBg.visible = false;
+	_bar.visible = false;
+	_label.visible = false;
 }
