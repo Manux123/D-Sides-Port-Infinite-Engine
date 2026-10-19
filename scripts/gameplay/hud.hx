@@ -18,11 +18,7 @@ function postCreate() {
 
 var intendedScore:Float = 0;
 
-function postUpdate(elapsed:Float) {
-	updateScore(elapsed);
-}
-
-function updateScore(elapsed:Float) {
+function onUpdateScore(elapsed:Float) {
 	intendedScore = FlxMath.lerp(intendedScore, playStateConfig.score, FlxMath.bound(elapsed * 16, 0, 1));
 
 	var displayScore:String = InfiniteUtil.formatNumber(Math.round(intendedScore));
@@ -31,6 +27,8 @@ function updateScore(elapsed:Float) {
 		scoreText.text = 'BOTPLAY';
 	else
 		scoreText.text = 'Score: $displayScore | Misses: ${playStateConfig.misses}';
+
+	return true;
 }
 
 function onDestroy() {
