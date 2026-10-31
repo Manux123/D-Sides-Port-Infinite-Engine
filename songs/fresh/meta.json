@@ -1,7 +1,10 @@
 {
+	"composer": "Kiwiquest",
+	"fontSize": 18,
+	"description": "Legendary rockstar Daddy Dearest is putting on a performance at his restaurant. Dozens of people show up to grab some grub and hear some tunes. But then, out of nowhere, a rival appears! Dearest's daughter, Girlfriend, and her boyfriend...Boyfriend! Seems Boyfriend is trying to show Dearest up by outdoing him on his own turf...Think ya' got what it takes?",
 	"song": "Fresh",
 	"stage": "stage",
-	"speed": 2.2,
 	"bpm": 91,
+	"speed": 2.2,
 	"needVoices": true
 }
