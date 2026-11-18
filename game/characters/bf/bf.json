@@ -24,7 +24,7 @@
         "layers": [
             {
                 "name": "char",
-                "path": "BF/BF_assets",
+                "path": "bf/BF_assets",
                 "position": [
                     0,
                     0

@@ -18,7 +18,7 @@
         "layers": [
             {
                 "name": "gf",
-                "path": "GF/GF_assets",
+                "path": "gf/GF_assets",
                 "antialiasing": true,
                 "scale": [
                     1.0,

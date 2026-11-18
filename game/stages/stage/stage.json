@@ -7,7 +7,7 @@
             "type": "sprite",
             "props": {
                 "name": "stageback",
-                "path": "week1",
+                "path": "stage/week1",
                 "position": [
                     -1000,
                     -490
@@ -72,7 +72,7 @@
             "type": "sprite",
             "props": {
                 "name": "BRIGHTLIGHTS",
-                "path": "week1",
+                "path": "stage/week1",
                 "alpha": 0.05,
                 "position": [
                     -1000,
