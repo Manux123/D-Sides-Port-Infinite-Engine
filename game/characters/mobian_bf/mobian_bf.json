@@ -185,7 +185,7 @@
 			0,
 			0
 		],
-		"singTime": 0.6,
+		"singTime": 1.2,
 		"death": {
 			"endSound": "default/gameOverEnd",
 			"music": "default/gameOver",

@@ -1,9 +1,10 @@
 import utils.InfiniteUtil;
 import flixel.util.FlxStringUtil;
 import flixel.text.FlxTextBorderStyle;
+import game.PlayStateConfig;
 
 function postCreate() {
-	scoreText.text = "Score: 0 - Misses: 0";
+	scoreText.text = "Score: 0 • Misses: 0";
 	scoreText.setFormat(Paths.getPath('tomo.otf', 'font'), 24, 0xFFFFFFFF, "center");
 	scoreText.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0xFF000000, 3, 1);
 
@@ -25,7 +26,7 @@ function onUpdateScore(elapsed:Float) {
 	if (SaveData.data.botplay)
 		scoreText.text = 'BOTPLAY';
 	else
-		scoreText.text = 'Score: $displayScore - Misses: ${PlayStateConfig.misses}';
+		scoreText.text = 'Score: $displayScore • Misses: ${PlayStateConfig.misses}';
 
 	return true;
 }

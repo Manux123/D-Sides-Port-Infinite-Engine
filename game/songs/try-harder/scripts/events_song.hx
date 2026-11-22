@@ -68,11 +68,13 @@ function onStepHit(step:Int) {
 					layer.shader = null;
 				CustomShader.clearAll();
 			}
-		case 613:
+		case 838:
+			FlxTween.tween(black, {alpha: 1}, 0.5);
 			boyfriend.visible = false;
 			for (layer in boyfriend.layers)
 				layer.visible = false;
-		case 614:
+		case 845:
+			FlxTween.tween(black, {alpha: 0}, 0.5);
 			boyfriend.visible = true;
 			for (layer in boyfriend.layers)
 				layer.visible = true;
