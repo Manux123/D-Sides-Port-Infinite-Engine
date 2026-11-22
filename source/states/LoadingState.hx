@@ -1,6 +1,6 @@
 function onCreate() {
-	var randomNum:Int = FlxG.random.int(1, 59);
-	var bg:FunkinSprite = new FunkinSprite(0, 0, true);
+	final randomNum:Int = FlxG.random.int(1, 59);
+	final bg:FunkinSprite = new FunkinSprite(0, 0, true);
 	bg.loadGraphic(Paths.getPath('menus/loading/' + randomNum, 'image'));
 	bg.setGraphicSize(1280, 720);
 	bg.updateHitbox();

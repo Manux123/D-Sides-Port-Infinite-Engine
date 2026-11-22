@@ -12,8 +12,22 @@ function postCreate() {
 	healthBarBG.x -= 6;
 	combo.numberOffsetX = 50;
 	combo.numberOffsetY = 20;
-	combo.x = FlxG.width * 0.15;
-	combo.y = FlxG.height * 0.8;
+	comboConfigPos(SaveData.data.downscroll);
+}
+
+function postApplyDownscroll(newDownscroll:Bool) {
+	healthBarBG.y -= 10.5;
+	comboConfigPos(newDownscroll);
+}
+
+function comboConfigPos(value:Bool) {
+	if (value) {
+		combo.x = FlxG.width * 0.85;
+		combo.y = FlxG.height * 0.2;
+	} else {
+		combo.x = FlxG.width * 0.15;
+		combo.y = FlxG.height * 0.8;
+	}
 }
 
 var intendedScore:Float = 0;
