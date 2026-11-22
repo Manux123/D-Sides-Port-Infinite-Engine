@@ -1,0 +1,151 @@
+{
+	"meta": {
+		"isPlayer": false
+	},
+	"icon": {
+		"healthBarColor": "#969693",
+		"props": {
+			"firstAnim": "normal",
+			"anims": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"name": "losing",
+					"looped": false,
+					"framerate": 24,
+					"indices": [
+						1
+					]
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"name": "normal",
+					"looped": false,
+					"framerate": 24,
+					"indices": [
+						0
+					]
+				}
+			],
+			"name": "dad-icon",
+			"flipX": false,
+			"frameScale": [
+				150,
+				150
+			],
+			"path": "icon-zeph"
+		},
+		"bumpInBeats": true,
+		"stepTempo": 2
+	},
+	"gameplay": {
+		"cameraOffset": [
+			-300,
+			-250
+		],
+		"singTime": 0.6,
+		"position": [
+			350,
+			10
+		],
+		"idleAfterSing": true
+	},
+	"render": {
+		"layers": [
+			{
+				"anims": [
+					{
+						"offsets": [
+							-480,
+							-110
+						],
+						"prefix": "ZephIdle",
+						"name": "idle",
+						"looped": false,
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-461,
+							-67
+						],
+						"prefix": "ZephDown",
+						"name": "singDOWN",
+						"looped": true,
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-610,
+							-206
+						],
+						"prefix": "ZephLeft",
+						"name": "singLEFT",
+						"looped": false,
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-426,
+							-147
+						],
+						"prefix": "ZephRight",
+						"name": "singRIGHT",
+						"looped": false,
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-489,
+							-295
+						],
+						"prefix": "ZephUp",
+						"name": "singUP",
+						"looped": false,
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-508,
+							-135
+						],
+						"prefix": "ZephLaugh",
+						"name": "laugh",
+						"looped": false,
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-672,
+							-213
+						],
+						"prefix": "ZephGrab",
+						"name": "grab",
+						"looped": false,
+						"framerate": 24
+					}
+				],
+				"visible": true,
+				"antialiasing": true,
+				"path": "zeph/zeph",
+				"position": [
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1
+				],
+				"name": "char",
+				"flipX": false,
+				"flipY": false,
+				"alpha": 1
+			}
+		]
+	}
+}

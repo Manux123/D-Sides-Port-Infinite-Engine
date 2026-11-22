@@ -6,6 +6,13 @@
             "icon": "dad",
             "artist": "Kiwiquest",
             "album": "expansion1"
+		},
+		{
+			"song": "Try-Harder",
+            "bpm": 103,
+            "icon": "mighty",
+            "artist": "theWAHbox, Kiwiquest, ft. Cloverderus & Wrathstetic",
+            "album": "expansion1"
 		}
 	]
 }

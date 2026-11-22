@@ -1,0 +1,246 @@
+{
+    "name": "Try Harder Stage",
+    "defaultZoom": 0.5,
+    "hideGF": false,
+    "elements": [
+        {
+            "type": "sprite",
+            "props": {
+                "name": "bg",
+                "path": "try-harder/try-harder-1",
+                "position": [
+                    -900,
+                    -1100
+                ],
+                "scrollFactor": [
+                    0.42,
+                    0.65
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "background ladders",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "ice",
+                "path": "try-harder/try-harder-1",
+                "position": [
+                    -121,
+                    -345
+                ],
+                "scrollFactor": [
+                    0.75,
+                    1
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "icicles background",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "fog",
+                "path": "try-harder/try-harder-1",
+                "position": [
+                    -590,
+                    -36
+                ],
+                "scrollFactor": [
+                    0.6,
+                    0.9
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "poop",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "ground",
+                "path": "try-harder/try-harder-1",
+                "position": [
+                    -666,
+                    96
+                ],
+                "scrollFactor": [
+                    1,
+                    1
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "main stage",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "ground",
+                "path": "try-harder/try-harder-1",
+                "position": [
+                    -666,
+                    96
+                ],
+                "scrollFactor": [
+                    1,
+                    1
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "main stage",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "character",
+            "id": "mobian_gf",
+            "position": [
+                550,
+                260
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "character",
+            "id": "mighty",
+            "position": [
+                170.666668551949,
+                340.6666672091937
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "character",
+            "id": "mobian_bf",
+            "position": [
+                900.697639369111,
+                400.847229015552
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "fgIce",
+                "path": "try-harder/try-harder-1",
+                "position": [
+                    -570,
+                    -500
+                ],
+                "scrollFactor": [
+                    2,
+                    2
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "icicles foreground",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "orgh",
+                "path": "try-harder/try-harder-1",
+                "position": [
+                    -620,
+                    -400
+                ],
+                "scrollFactor": [
+                    1,
+                    0.1
+                ],
+                "antialiasing": true,
+                "scale": [
+                    2.2,
+                    2.2
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "orgh",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        }
+    ]
+}
