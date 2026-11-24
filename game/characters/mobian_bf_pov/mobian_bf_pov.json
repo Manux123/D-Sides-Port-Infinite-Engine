@@ -1,0 +1,186 @@
+{
+	"meta": {
+		"isPlayer": true
+	},
+	"icon": {
+		"healthBarColor": "#E455D8",
+		"props": {
+			"firstAnim": "normal",
+			"anims": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"name": "losing",
+					"looped": false,
+					"framerate": 24,
+					"indices": [
+						1
+					]
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"name": "normal",
+					"looped": false,
+					"framerate": 24,
+					"indices": [
+						0
+					]
+				}
+			],
+			"name": "bf-icon",
+			"flipX": false,
+			"frameScale": [
+				150,
+				150
+			],
+			"path": "icon-bfmobian"
+		},
+		"bumpInBeats": true,
+		"stepTempo": 2
+	},
+	"gameplay": {
+		"cameraOffset": [
+			-515,
+			-260
+		],
+		"position": [
+			125,
+			370
+		],
+		"singTime": 1.2,
+		"death": {
+			"endSound": "default/gameOverEnd",
+			"character": "bf-death",
+			"music": "default/gameOver",
+			"sound": "default/fnf_loss_sfx"
+		},
+		"idleAfterSing": true
+	},
+	"render": {
+		"layers": [
+			{
+				"anims": [
+					{
+						"offsets": [
+							-16,
+							-12
+						],
+						"prefix": "Left0",
+						"looped": false,
+						"name": "singLEFT",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							43,
+							20
+						],
+						"prefix": "Down0",
+						"looped": false,
+						"name": "singDOWN",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							46,
+							-16
+						],
+						"prefix": "Up0",
+						"looped": false,
+						"name": "singUP",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							65,
+							-9
+						],
+						"prefix": "Right0",
+						"looped": false,
+						"name": "singRIGHT",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							28,
+							-17
+						],
+						"prefix": "UpMISS",
+						"looped": false,
+						"name": "singUPmiss",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							58,
+							-73
+						],
+						"prefix": "RightMISS",
+						"looped": false,
+						"name": "singRIGHTmiss",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							0,
+							0
+						],
+						"prefix": "Idle",
+						"looped": false,
+						"name": "idle",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							28,
+							10
+						],
+						"prefix": "DownMISS",
+						"looped": false,
+						"name": "singDOWNmiss",
+						"framerate": 24,
+						"indices": []
+					},
+					{
+						"offsets": [
+							-27,
+							-41
+						],
+						"prefix": "LeftMISS",
+						"looped": false,
+						"name": "singLEFTmiss",
+						"framerate": 24,
+						"indices": []
+					}
+				],
+				"visible": true,
+				"antialiasing": true,
+				"path": "mobian_bf_pov/Mobian_BF_POV",
+				"position": [
+					0,
+					0
+				],
+				"scale": [
+					1.5,
+					1.5
+				],
+				"name": "char",
+				"flipX": false,
+				"flipY": false,
+				"alpha": 1
+			}
+		]
+	}
+}

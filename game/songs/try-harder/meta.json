@@ -1,7 +1,7 @@
 {
 	"song": "Try Harder",
 	"stage": "try-harder",
+	"bpm": 103,
 	"needVoices": true,
-	"speed": 3,
-	"bpm": 103
+	"speed": 3
 }

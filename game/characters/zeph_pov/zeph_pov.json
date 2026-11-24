@@ -1,0 +1,132 @@
+{
+	"icon": {
+		"props": {
+			"firstAnim": "normal",
+			"anims": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"looped": false,
+					"name": "losing",
+					"framerate": 24,
+					"indices": [
+						1
+					]
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"looped": false,
+					"name": "normal",
+					"framerate": 24,
+					"indices": [
+						0
+					]
+				}
+			],
+			"flipX": false,
+			"name": "dad-icon",
+			"path": "icon-zeph",
+			"frameScale": [
+				150,
+				150
+			]
+		},
+		"healthBarColor": "#969693",
+		"bumpInBeats": true,
+		"stepTempo": 2
+	},
+	"name": "Zeph Pov",
+	"meta": {
+		"isPlayer": false
+	},
+	"render": {
+		"layers": [
+			{
+				"anims": [
+					{
+						"offsets": [
+							-480,
+							-110
+						],
+						"prefix": "Idle",
+						"looped": false,
+						"name": "idle",
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-751,
+							-127
+						],
+						"prefix": "Down",
+						"looped": true,
+						"name": "singDOWN",
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-680,
+							-176
+						],
+						"prefix": "Left",
+						"looped": false,
+						"name": "singLEFT",
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-833,
+							-210
+						],
+						"prefix": "Right",
+						"looped": false,
+						"name": "singRIGHT",
+						"framerate": 24
+					},
+					{
+						"offsets": [
+							-489,
+							-285
+						],
+						"prefix": "Up",
+						"looped": false,
+						"name": "singUP",
+						"framerate": 24
+					}
+				],
+				"visible": true,
+				"antialiasing": true,
+				"path": "zeph_pov/pov",
+				"position": [
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1
+				],
+				"name": "char",
+				"flipX": false,
+				"flipY": false,
+				"alpha": 1
+			}
+		]
+	},
+	"gameplay": {
+		"singTime": 1,
+		"cameraOffset": [
+			-700,
+			-340
+		],
+		"position": [
+			350,
+			-90
+		],
+		"idleAfterSing": true
+	}
+}

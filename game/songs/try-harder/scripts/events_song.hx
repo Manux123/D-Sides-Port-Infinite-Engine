@@ -1,5 +1,7 @@
 import flixel.util.FlxColor;
 
+var p1:Array<String> = ['bg', 'ice', 'fog', 'ground', 'evilness', 'fgIce', 'orgh'/*, 'fog1', 'fog2'*/];
+var p2:Array<String> = ['bg2', 'iceback', 'plat', 'floor', 'icefront'];
 var introcc = CustomShader.loadShader('colorcorrection');
 var colorcorrection = CustomShader.applyToCameras('colorcorrection', [camGame, camHUD]);
 var black:FlxSprite;
@@ -52,6 +54,7 @@ function onStepHit(step:Int) {
 			FlxTween.tween(black, {alpha: 1}, 1.2);
 			FlxTween.tween(camHUD, {alpha: 0}, 1);
 		case 468:
+			stage.getObject('evilness').visible = true;
 			stage.getObject('orgh').visible = false;
 			black.alpha = 0;
 			camHUD.alpha = 1;
@@ -78,6 +81,25 @@ function onStepHit(step:Int) {
 			boyfriend.visible = true;
 			for (layer in boyfriend.layers)
 				layer.visible = true;
+			for (layer in gf.layers)
+				layer.visible = false;
+			for (i in p1)
+				stage.getObject(i).visible = false;
+			for (i in p2)
+				stage.getObject(i).visible = true;
+		case 1359:
+			FlxTween.tween(black, {alpha: 1}, 0.5);
+		case 1362:
+			for (layer in gf.layers)
+				layer.visible = true;
+			for (i in p1)
+				stage.getObject(i).visible = true;
+			for (i in p2)
+				stage.getObject(i).visible = false;
+		case 1372:
+			FlxTween.tween(black, {alpha: 0}, 1);
+		case 1616:
+
 	}
 }
 

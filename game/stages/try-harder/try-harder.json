@@ -122,10 +122,11 @@
         {
             "type": "sprite",
             "props": {
-                "name": "ground",
+                "name": "evilness",
                 "path": "try-harder/try-harder-1",
+                "visible": false,
                 "position": [
-                    -666,
+                    -341,
                     96
                 ],
                 "scrollFactor": [
@@ -140,7 +141,127 @@
                 "anims": [
                     {
                         "framerate": 24,
-                        "prefix": "main stage",
+                        "prefix": "spoopy main stage",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "bg2",
+                "path": "try-harder/try-harder-2",
+                "visible": false,
+                "position": [
+                    -1280,
+                    -720
+                ],
+                "scrollFactor": [
+                    0.1,
+                    0.1
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "bg",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "iceback",
+                "path": "try-harder/try-harder-2",
+                "visible": false,
+                "position": [
+                    -350,
+                    -720
+                ],
+                "scrollFactor": [
+                    0.5,
+                    0.5
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "ice back",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "plat",
+                "path": "try-harder/try-harder-2",
+                "visible": false,
+                "position": [
+                    -1280,
+                    200
+                ],
+                "scrollFactor": [
+                    0.3,
+                    0.3
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "platforms",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "floor",
+                "path": "try-harder/try-harder-2",
+                "visible": false,
+                "position": [
+                    -1280,
+                    -1280
+                ],
+                "scrollFactor": [
+                    0.8,
+                    0.8
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "main",
                         "name": "idle",
                         "looped": true
                     }
@@ -206,6 +327,37 @@
                     {
                         "framerate": 24,
                         "prefix": "icicles foreground",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "icefront",
+                "path": "try-harder/try-harder-2",
+                "visible": false,
+                "position": [
+                    -1280,
+                    -720
+                ],
+                "alpha": 0.8,
+                "scrollFactor": [
+                    2,
+                    2
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1,
+                    1
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "ice front",
                         "name": "idle",
                         "looped": true
                     }
