@@ -89,14 +89,13 @@ function onStepHit(step:Int) {
 				stage.getObject(i).visible = true;
 		case 1359:
 			FlxTween.tween(black, {alpha: 1}, 0.5);
-		case 1362:
+		case 1372:
 			for (layer in gf.layers)
 				layer.visible = true;
 			for (i in p1)
 				stage.getObject(i).visible = true;
 			for (i in p2)
 				stage.getObject(i).visible = false;
-		case 1372:
 			FlxTween.tween(black, {alpha: 0}, 1);
 		case 1616:
 
