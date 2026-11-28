@@ -1,0 +1,91 @@
+{
+	"icon": {
+		"props": {
+			"firstAnim": "normal",
+			"anims": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"looped": false,
+					"name": "losing",
+					"framerate": 24,
+					"indices": [
+						1
+					]
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"looped": false,
+					"name": "normal",
+					"framerate": 24,
+					"indices": [
+						0
+					]
+				}
+			],
+			"flipX": false,
+			"name": "dad-icon",
+			"path": "icon-zeph",
+			"frameScale": [
+				150,
+				150
+			]
+		},
+		"healthBarColor": "#969693",
+		"bumpInBeats": true,
+		"stepTempo": 2
+	},
+	"meta": {
+		"isPlayer": false
+	},
+	"render": {
+		"layers": [
+			{
+				"anims": [
+					{
+						"name": "idle",
+						"prefix": "RHYME",
+						"offsets": [
+							0,
+							0
+						],
+						"looped": false,
+						"framerate": 24
+					}
+				],
+				"visible": true,
+				"antialiasing": true,
+				"path": "zeph_rhyme/RHYME",
+				"position": [
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1
+				],
+				"name": "char",
+				"flipX": false,
+				"flipY": false,
+				"alpha": 1
+			}
+		]
+	},
+	"gameplay": {
+		"singTime": 1,
+		"cameraOffset": [
+			180,
+			100
+		],
+		"position": [
+			-340,
+			-550
+		],
+		"idleAfterSing": true
+	}
+}

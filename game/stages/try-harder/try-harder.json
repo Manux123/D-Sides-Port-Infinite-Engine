@@ -368,6 +368,34 @@
         {
             "type": "sprite",
             "props": {
+                "name": "snowAtlas",
+                "path": "try-harder/Snow",
+                "position": [
+                    -250,
+                    -150
+                ],
+                "scrollFactor": [
+                    1.5, 1.5
+                ],
+                "antialiasing": true,
+                "scale": [
+                    1.8,1.8
+                ],
+                "anims": [
+                    {
+                        "framerate": 24,
+                        "prefix": "SnowFall",
+                        "name": "idle",
+                        "looped": true
+                    }
+                ],
+                "alpha": 0,
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
                 "name": "orgh",
                 "path": "try-harder/try-harder-1",
                 "position": [
@@ -391,6 +419,28 @@
                         "looped": true
                     }
                 ],
+                "firstAnim": "idle"
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "transition",
+                "path": "try-harder/snow transition",
+                "position": [
+                    -200,
+                    -200
+                ],
+                "scrollFactor": [
+                    0,
+                    0
+                ],
+                "antialiasing": true,
+                "scale": [
+                    2.2,
+                    2.2
+                ],
+                "alpha": 0,
                 "firstAnim": "idle"
             }
         }
