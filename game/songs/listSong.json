@@ -1,5 +1,12 @@
 {
 	"songData": [
+        {
+			"song": "Tutorial",
+            "bpm": 124,
+            "icon": "gf",
+            "artist": "Kiwiquest",
+            "album": "expansion1"
+		},
 		{
 			"song": "Fresh",
             "bpm": 91,

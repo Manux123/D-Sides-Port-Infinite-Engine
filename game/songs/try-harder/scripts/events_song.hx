@@ -86,16 +86,18 @@ function postCreate() {
 	snowOverlay.scrollFactor.set(0, 0);
 	snowOverlay.setGraphicSize(Std.int(snowOverlay.width * 1.10));
 	snowOverlay.alpha = 0;
-	snowOverlay.shader = colorcorrection;
-	colorcorrection.setFloat('saturation', 0.3);
+	if (SaveData.data.shaders) {
+		snowOverlay.shader = colorcorrection;
+		colorcorrection.setFloat('saturation', 0.3);
+	}
 	add(snowOverlay);
 
-	addepic = new FlxSprite(0,0).makeGraphic(1280, 720, 0xFF0A274F);
-    addepic.scrollFactor.set(0, 0);
-    addepic.setGraphicSize(Std.int(addepic.width * 2.0));
-    addepic.blend = BlendMode.ADD;
-    addepic.alpha = 0;
-    add(addepic);
+	addepic = new FlxSprite(0, 0).makeGraphic(1280, 720, 0xFF0A274F);
+	addepic.scrollFactor.set(0, 0);
+	addepic.setGraphicSize(Std.int(addepic.width * 2.0));
+	addepic.blend = BlendMode.ADD;
+	addepic.alpha = 0;
+	add(addepic);
 }
 
 function onStepHit(step:Int) {
@@ -193,7 +195,6 @@ function onStepHit(step:Int) {
 				colorcorrection.setFloat('customblue', 0.15);
 			}
 			FlxTween.tween(bfStrums, {alpha: 0}, 1, {ease: FlxEase.cubeOut});
-
 		case 1896:
 			combo.visible = true;
 			healthBar.visible = true;

@@ -1,0 +1,243 @@
+{
+	"events": [
+		{
+			"time": 15483.8709677419,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 17419.3548387097,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 19838.7096774194,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 21774.1935483871,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 23709.6774193548,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 25645.1612903226,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 28064.5161290323,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 29032.2580645161,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 30967.7419354839,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 33145.1612903226,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 34838.7096774194,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 36774.1935483871,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 38951.6129032258,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 40887.0967741936,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 42822.5806451613,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 46693.5483870968,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 48387.0967741936,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 50443.5483870968,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 52258.064516129,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 54193.5483870968,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 56129.0322580645,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 58064.5161290323,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 60000,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 61935.4838709677,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 63870.9677419355,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 66532.2580645161,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 67983.8709677419,
+			"arguments": {
+				"char": "cutout"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 69919.3548387097,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 72096.7741935484,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 75725.8064516129,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 82016.1290322581,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 83467.7419354839,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"time": 91935.4838709677,
+			"arguments": {
+				"char": "bf"
+			},
+			"name": "Camera Follow"
+		},
+		{
+			"arguments": {
+				"char": "cutout",
+				"anim": "cheer"
+			},
+			"name": "Play Anim",
+			"time": 92661.29032258065
+		}
+	]
+}

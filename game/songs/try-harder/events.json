@@ -1,1155 +1,1155 @@
 {
 	"events": [
 		{
-			"time": 0,
 			"arguments": {
 				"duration": 1,
 				"ease": "expoOut",
-				"zoom": 5,
-				"mode": "stage"
+				"mode": "stage",
+				"zoom": 5
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 0
 		},
 		{
-			"time": 0,
 			"arguments": {
 				"x": 0,
 				"y": -400,
 				"duration": 0,
-				"ease": "CLASSIC",
-				"char": "mobian_gf"
+				"char": "mobian_gf",
+				"ease": "CLASSIC"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 0
 		},
 		{
-			"time": 145.63106796116506,
 			"arguments": {
 				"duration": 120,
 				"ease": "sineOut",
-				"zoom": 1,
-				"mode": "stage"
+				"mode": "stage",
+				"zoom": 1
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 145.63106796116506
 		},
 		{
-			"time": 291.2621359223301,
 			"arguments": {
 				"duration": 0,
 				"ease": "linear",
 				"speed": 1.5
 			},
-			"name": "Change Scroll Speed"
+			"name": "Change Scroll Speed",
+			"time": 291.2621359223301
 		},
 		{
-			"time": 436.8932038834952,
 			"arguments": {
 				"x": 0,
 				"y": 0,
 				"duration": 80,
-				"char": "mobian_gf",
-				"ease": "sineOut"
+				"ease": "sineOut",
+				"char": "mobian_gf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 436.8932038834952
 		},
 		{
-			"time": 18495.145631067964,
 			"arguments": {
 				"duration": 8,
 				"ease": "expoOut",
-				"mode": "stage",
-				"zoom": 1.2
+				"zoom": 1.2,
+				"mode": "stage"
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 18495.145631067964
 		},
 		{
-			"time": 18640.7766990291,
 			"arguments": {
 				"duration": 12,
-				"char": "mighty",
-				"ease": "expoOut"
+				"ease": "expoOut",
+				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 18640.7766990291
 		},
 		{
-			"time": 27961.1650485437,
 			"arguments": {
 				"duration": 12,
-				"char": "mobian_bf",
-				"ease": "expoOut"
+				"ease": "expoOut",
+				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 27961.1650485437
 		},
 		{
-			"time": 37281.5533980583,
 			"arguments": {
 				"duration": 12,
-				"char": "mighty",
-				"ease": "expoOut"
+				"ease": "expoOut",
+				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 37281.5533980583
 		},
 		{
-			"time": 46601.9417475728,
 			"arguments": {
 				"duration": 12,
-				"char": "mobian_bf",
-				"ease": "expoOut"
+				"ease": "expoOut",
+				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 46601.9417475728
 		},
 		{
-			"time": 55922.3300970874,
 			"arguments": {
 				"duration": 12,
-				"char": "mighty",
-				"ease": "expoOut"
+				"ease": "expoOut",
+				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 55922.3300970874
 		},
 		{
-			"time": 57961.16504854376,
 			"arguments": {
 				"duration": 4,
 				"ease": "expoOut",
 				"speed": 3
 			},
-			"name": "Change Scroll Speed"
+			"name": "Change Scroll Speed",
+			"time": 57961.16504854376
 		},
 		{
-			"time": 60582.5242718447,
 			"arguments": {
 				"bpm": 221
 			},
-			"name": "Change BPM"
+			"name": "Change BPM",
+			"time": 60582.5242718447
 		},
 		{
-			"time": 61601.94174757282,
 			"arguments": {
 				"char": "mighty",
 				"newCharacter": "zeph"
 			},
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 61601.94174757282
 		},
 		{
-			"time": 63840.4428238809,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 63840.4428238809
 		},
 		{
-			"time": 64926.4156745596,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 64926.4156745596
 		},
 		{
-			"time": 66148.1351315732,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 66148.1351315732
 		},
 		{
-			"time": 67234.107982252,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 67234.107982252
 		},
 		{
-			"time": 68184.3342265958,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 68184.3342265958
 		},
 		{
-			"time": 69270.3070772746,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 69270.3070772746
 		},
 		{
-			"time": 70356.2799279533,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 70356.2799279533
 		},
 		{
-			"time": 71442.2527786321,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 71442.2527786321
 		},
 		{
-			"time": 72528.2256293108,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 72528.2256293108
 		},
 		{
-			"time": 73749.9450863244,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 73749.9450863244
 		},
 		{
-			"time": 74700.1713306683,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 74700.1713306683
 		},
 		{
-			"time": 75921.8907876819,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 75921.8907876819
 		},
 		{
-			"time": 76872.1170320257,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 76872.1170320257
 		},
 		{
-			"time": 78093.8364890393,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 78093.8364890393
 		},
 		{
-			"time": 79044.0627333832,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 79044.0627333832
 		},
 		{
-			"time": 79790.66906822477,
 			"arguments": {
 				"duration": 4,
 				"ease": "CLASSIC",
-				"mode": "stage",
-				"zoom": 1.8
+				"zoom": 1.8,
+				"mode": "stage"
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 79790.66906822477
 		},
 		{
-			"time": 79858.54237139219,
 			"arguments": {
 				"x": 0,
 				"y": 0,
 				"duration": 2,
-				"ease": "CLASSIC",
+				"char": "mighty",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 79858.54237139219
+		},
+		{
+			"arguments": {
+				"char": "mighty",
+				"anim": "laugh"
+			},
+			"name": "Play Anim",
+			"time": 79951.45631067961
+		},
+		{
+			"arguments": {
+				"char": "mighty",
+				"anim": "laugh"
+			},
+			"name": "Play Anim",
+			"time": 80155.33980582525
+		},
+		{
+			"arguments": {
+				"char": "mighty",
+				"anim": "laugh"
+			},
+			"name": "Play Anim",
+			"time": 80388.34951456312
+		},
+		{
+			"arguments": {
+				"char": "mighty",
+				"anim": "laugh"
+			},
+			"name": "Play Anim",
+			"time": 80621.35922330098
+		},
+		{
+			"arguments": {
+				"duration": 4,
+				"ease": "expoOut",
+				"zoom": 1.2,
+				"mode": "stage"
+			},
+			"name": "Zoom Camera",
+			"time": 81148.13513157319
+		},
+		{
+			"arguments": {
+				"char2": "mobian_bf",
+				"isLock": true,
+				"char1": "mighty"
+			},
+			"name": "Center Camera",
+			"time": 81216.0084347407
+		},
+		{
+			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 82301.9812854194
 		},
 		{
-			"time": 79951.45631067961,
+			"arguments": {
+				"char": "mighty"
+			},
+			"name": "Camera Follow",
+			"time": 83523.700742433
+		},
+		{
+			"arguments": {
+				"char": "mighty"
+			},
+			"name": "Camera Follow",
+			"time": 84609.6735931117
+		},
+		{
+			"arguments": {
+				"char2": "mobian_bf",
+				"isLock": false,
+				"char1": "mobian_bf"
+			},
+			"name": "Center Camera",
+			"time": 85559.89983745554
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 85559.8998374556
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 86645.8726881344
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 87731.8455388131
+		},
+		{
 			"arguments": {
 				"char": "mighty",
-				"anim": "laugh"
+				"anim": "grab"
 			},
-			"name": "Play Anim"
+			"name": "Play Anim",
+			"time": 87844.66019417475
 		},
 		{
-			"time": 80155.33980582525,
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 88953.5649958267
+		},
+		{
+			"arguments": {
+				"x": 0,
+				"y": -400,
+				"duration": 20,
+				"ease": "sineOut",
+				"char": "mighty"
+			},
+			"name": "Camera Follow",
+			"time": 89360.8048148311
+		},
+		{
 			"arguments": {
 				"char": "mighty",
-				"anim": "laugh"
+				"newCharacter": "zeph_pov"
 			},
-			"name": "Play Anim"
+			"name": "Change Character",
+			"time": 89428.67811799853
 		},
 		{
-			"time": 80388.34951456312,
+			"arguments": {
+				"char": "mobian_bf",
+				"newCharacter": "mobian_bf_pov"
+			},
+			"name": "Change Character",
+			"time": 89428.67811799853
+		},
+		{
+			"arguments": {
+				"duration": 1,
+				"ease": "expoOut",
+				"mode": "stage",
+				"zoom": 1.2
+			},
+			"name": "Zoom Camera",
+			"time": 89496.55142116595
+		},
+		{
+			"arguments": {
+				"x": 0,
+				"y": 0,
+				"duration": 25,
+				"ease": "sineOut",
+				"char": "mighty"
+			},
+			"name": "Camera Follow",
+			"time": 89632.29802750079
+		},
+		{
+			"arguments": {
+				"char2": "mighty",
+				"isLock": false,
+				"char1": "mighty"
+			},
+			"name": "Center Camera",
+			"time": 124519.17585555509
+		},
+		{
+			"arguments": {
+				"x": 0,
+				"y": -400,
+				"duration": 15,
+				"ease": "sineOut",
+				"char": "mighty"
+			},
+			"name": "Camera Follow",
+			"time": 124654.92246188993
+		},
+		{
+			"arguments": {
+				"duration": 2,
+				"ease": "expoOut",
+				"mode": "stage",
+				"zoom": 1.15
+			},
+			"name": "Zoom Camera",
+			"time": 124858.54237139219
+		},
+		{
 			"arguments": {
 				"char": "mighty",
-				"anim": "laugh"
+				"newCharacter": "zeph"
 			},
-			"name": "Play Anim"
+			"name": "Change Character",
+			"time": 124994.28897772703
 		},
 		{
-			"time": 80621.35922330098,
 			"arguments": {
-				"char": "mighty",
-				"anim": "laugh"
+				"char": "mobian_bf",
+				"newCharacter": "mobian_bf"
 			},
-			"name": "Play Anim"
+			"name": "Change Character",
+			"time": 124994.28897772703
 		},
 		{
-			"time": 81148.13513157319,
+			"arguments": {
+				"x": 0,
+				"y": 0,
+				"duration": 15,
+				"char": "mobian_gf",
+				"ease": "sineOut"
+			},
+			"name": "Camera Follow",
+			"time": 125062.16228089479
+		},
+		{
+			"arguments": {
+				"duration": 4,
+				"ease": "expoOut",
+				"mode": "stage",
+				"zoom": 1.05
+			},
+			"name": "Zoom Camera",
+			"time": 133274.83196415234
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 133342.70526732
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 134428.678117999
+		},
+		{
+			"arguments": {
+				"duration": 4,
+				"ease": "expoOut",
+				"mode": "stage",
+				"zoom": 0.95
+			},
+			"name": "Zoom Camera",
+			"time": 135582.52427184468
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 135650.397575012
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 137686.596670035
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 138772.569520714
+		},
+		{
+			"arguments": {
+				"char": "mobian_bf"
+			},
+			"name": "Camera Follow",
+			"time": 139994.288977727
+		},
+		{
 			"arguments": {
 				"duration": 4,
 				"ease": "expoOut",
 				"mode": "stage",
 				"zoom": 1.2
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 142030.48807274917
 		},
 		{
-			"time": 81216.0084347407,
-			"arguments": {
-				"char2": "mobian_bf",
-				"isLock": true,
-				"char1": "mighty"
-			},
-			"name": "Center Camera"
-		},
-		{
-			"time": 82301.9812854194,
-			"arguments": {
-				"char": "mighty"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 83523.700742433,
-			"arguments": {
-				"char": "mighty"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 84609.6735931117,
-			"arguments": {
-				"char": "mighty"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 85559.89983745554,
-			"arguments": {
-				"char2": "mobian_bf",
-				"isLock": false,
-				"char1": "mobian_bf"
-			},
-			"name": "Center Camera"
-		},
-		{
-			"time": 85559.8998374556,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 142166.234679085
 		},
 		{
-			"time": 86645.8726881344,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 143116.460923428
 		},
 		{
-			"time": 87731.8455388131,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 87844.66019417475,
-			"arguments": {
-				"char": "mighty",
-				"anim": "grab"
-			},
-			"name": "Play Anim"
-		},
-		{
-			"time": 88953.5649958267,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 89360.8048148311,
-			"arguments": {
-				"x": 0,
-				"y": -400,
-				"duration": 20,
-				"char": "mighty",
-				"ease": "sineOut"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 89428.67811799853,
-			"arguments": {
-				"char": "mighty",
-				"newCharacter": "zeph_pov"
-			},
-			"name": "Change Character"
-		},
-		{
-			"time": 89428.67811799853,
-			"arguments": {
-				"char": "mobian_bf",
-				"newCharacter": "mobian_bf_pov"
-			},
-			"name": "Change Character"
-		},
-		{
-			"time": 89496.55142116595,
-			"arguments": {
-				"duration": 1,
-				"ease": "expoOut",
-				"zoom": 1.2,
-				"mode": "stage"
-			},
-			"name": "Zoom Camera"
-		},
-		{
-			"time": 89632.29802750079,
-			"arguments": {
-				"x": 0,
-				"y": 0,
-				"duration": 25,
-				"char": "mighty",
-				"ease": "sineOut"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 124519.17585555509,
-			"arguments": {
-				"char2": "mighty",
-				"isLock": false,
-				"char1": "mighty"
-			},
-			"name": "Center Camera"
-		},
-		{
-			"time": 124654.92246188993,
-			"arguments": {
-				"x": 0,
-				"y": -400,
-				"duration": 15,
-				"char": "mighty",
-				"ease": "sineOut"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 124858.54237139219,
-			"arguments": {
-				"duration": 2,
-				"ease": "expoOut",
-				"zoom": 1.15,
-				"mode": "stage"
-			},
-			"name": "Zoom Camera"
-		},
-		{
-			"time": 124994.28897772703,
-			"arguments": {
-				"char": "mighty",
-				"newCharacter": "zeph"
-			},
-			"name": "Change Character"
-		},
-		{
-			"time": 124994.28897772703,
-			"arguments": {
-				"char": "mobian_bf",
-				"newCharacter": "mobian_bf"
-			},
-			"name": "Change Character"
-		},
-		{
-			"time": 125062.16228089479,
-			"arguments": {
-				"x": 0,
-				"y": 0,
-				"duration": 15,
-				"ease": "sineOut",
-				"char": "mobian_gf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 133274.83196415234,
-			"arguments": {
-				"duration": 4,
-				"ease": "expoOut",
-				"zoom": 1.05,
-				"mode": "stage"
-			},
-			"name": "Zoom Camera"
-		},
-		{
-			"time": 133342.70526732,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 134428.678117999,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 135582.52427184468,
-			"arguments": {
-				"duration": 4,
-				"ease": "expoOut",
-				"zoom": 0.95,
-				"mode": "stage"
-			},
-			"name": "Zoom Camera"
-		},
-		{
-			"time": 135650.397575012,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 137686.596670035,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 138772.569520714,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 139994.288977727,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 142030.48807274917,
-			"arguments": {
-				"duration": 4,
-				"ease": "expoOut",
-				"zoom": 1.2,
-				"mode": "stage"
-			},
-			"name": "Zoom Camera"
-		},
-		{
-			"time": 142166.234679085,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 143116.460923428,
-			"arguments": {
-				"char": "mobian_bf"
-			},
-			"name": "Camera Follow"
-		},
-		{
-			"time": 144134.56047093967,
 			"arguments": {
 				"char": "mobian_bf",
 				"newCharacter": "mobian_bf_cold"
 			},
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 144134.56047093967
 		},
 		{
-			"time": 144134.56047093973,
 			"arguments": {
 				"char": "mobian_gf",
 				"newCharacter": "mobian_gf_cold"
 			},
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 144134.56047093973
 		},
 		{
-			"time": 144134.56047093973,
 			"arguments": {
 				"char": "mighty",
 				"newCharacter": "zeph_rhyme"
 			},
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 144134.56047093973
 		},
 		{
-			"time": 144202.43377410696,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 144202.43377410696
 		},
 		{
-			"time": 144202.43377410714,
 			"arguments": {
 				"duration": 4,
 				"ease": "expoOut",
-				"zoom": 1.55,
-				"mode": "stage"
+				"mode": "stage",
+				"zoom": 1.55
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 144202.43377410714
 		},
 		{
-			"time": 160492.02653428813,
 			"arguments": {
 				"duration": 4,
 				"ease": "expoOut",
-				"zoom": 1.65,
-				"mode": "stage"
+				"mode": "stage",
+				"zoom": 1.65
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 160492.02653428813
 		},
 		{
-			"time": 161374.37947546458,
 			"arguments": {
 				"duration": 4,
 				"ease": "expoOut",
-				"zoom": 1.2,
-				"mode": "stage"
+				"mode": "stage",
+				"zoom": 1.2
 			},
-			"name": "Zoom Camera"
+			"name": "Zoom Camera",
+			"time": 161374.37947546458
 		},
 		{
-			"time": 161577.99938496685,
 			"arguments": {
 				"char": "mighty",
 				"newCharacter": "zeph"
 			},
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 161577.99938496685
 		},
 		{
-			"time": 161577.999384967,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 161577.999384967
 		},
 		{
-			"time": 162663.972235645,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 162663.972235645
 		},
 		{
-			"time": 163885.691692659,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 163885.691692659
 		},
 		{
-			"time": 164971.664543338,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 164971.664543338
 		},
 		{
-			"time": 165921.890787682,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 165921.890787682
 		},
 		{
-			"time": 167007.86363836,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 167007.86363836
 		},
 		{
-			"time": 168093.836489039,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 168093.836489039
 		},
 		{
-			"time": 169179.809339718,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 169179.809339718
 		},
 		{
-			"time": 170265.782190397,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 170265.782190397
 		},
 		{
-			"time": 171351.755041075,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 171351.755041075
 		},
 		{
-			"time": 172437.727891754,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 172437.727891754
 		},
 		{
-			"time": 173523.700742433,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 173523.700742433
 		},
 		{
-			"time": 174609.673593111,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 174609.673593111
 		},
 		{
-			"time": 175695.64644379,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 175695.64644379
 		},
 		{
-			"time": 176781.619294469,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 176781.619294469
 		},
 		{
-			"time": 177867.592145148,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 177867.592145148
 		},
 		{
-			"time": 178953.564995826,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 178953.564995826
 		},
 		{
-			"time": 194157.184905328,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 194157.184905328
 		},
 		{
-			"time": 195378.904362342,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 195378.904362342
 		},
 		{
-			"time": 196329.130606686,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 196329.130606686
 		},
 		{
-			"time": 197686.596670034,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 197686.596670034
 		},
 		{
-			"time": 198501.076308043,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 198501.076308043
 		},
 		{
-			"time": 199722.795765057,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 199722.795765057
 		},
 		{
-			"time": 200673.022009401,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 200673.022009401
 		},
 		{
-			"time": 202166.234679084,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 202166.234679084
 		},
 		{
-			"time": 202844.967710758,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 202844.967710758
 		},
 		{
-			"time": 204066.687167772,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 204066.687167772
 		},
 		{
-			"time": 205016.913412116,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 205016.913412116
 		},
 		{
-			"time": 206374.379475464,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 206374.379475464
 		},
 		{
-			"time": 207188.859113473,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 207188.859113473
 		},
 		{
-			"time": 208410.578570487,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 208410.578570487
 		},
 		{
-			"time": 209360.804814831,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 209360.804814831
 		},
 		{
-			"time": 210854.017484514,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 210854.017484514
 		},
 		{
-			"time": 211532.750516188,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 211532.750516188
 		},
 		{
-			"time": 212754.469973201,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 212754.469973201
 		},
 		{
-			"time": 213704.696217545,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 213704.696217545
 		},
 		{
-			"time": 214926.415674559,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 214926.415674559
 		},
 		{
-			"time": 215876.641918903,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 215876.641918903
 		},
 		{
-			"time": 217098.361375916,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 217098.361375916
 		},
 		{
-			"time": 218048.58762026,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 218048.58762026
 		},
 		{
-			"time": 219270.307077274,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 219270.307077274
 		},
 		{
-			"time": 220220.533321618,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 220220.533321618
 		},
 		{
-			"time": 221442.252778631,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 221442.252778631
 		},
 		{
-			"time": 222392.479022975,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 222392.479022975
 		},
 		{
-			"time": 223614.198479989,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 223614.198479989
 		},
 		{
-			"time": 224564.424724333,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 224564.424724333
 		},
 		{
-			"time": 225786.144181346,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 225786.144181346
 		},
 		{
-			"time": 226736.37042569,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 226736.37042569
 		},
 		{
-			"time": 227822.343276369,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 227822.343276369
 		},
 		{
-			"time": 228908.316127048,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 228908.316127048
 		},
 		{
-			"time": 229994.288977727,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 229994.288977727
 		},
 		{
-			"time": 231080.261828405,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 231080.261828405
 		},
 		{
-			"time": 232301.981285419,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 232301.981285419
 		},
 		{
-			"time": 233252.207529762,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 233252.207529762
 		},
 		{
-			"time": 234338.180380442,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 234338.180380442
 		},
 		{
-			"time": 235424.15323112,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 235424.15323112
 		},
 		{
-			"time": 236510.1260818,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 236510.1260818
 		},
 		{
-			"time": 237596.098932478,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 237596.098932478
 		},
 		{
-			"time": 238682.071783157,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 238682.071783157
 		},
 		{
-			"time": 239768.044633836,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 239768.044633836
 		},
 		{
-			"time": 240989.764090849,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 240989.764090849
 		},
 		{
-			"time": 241939.990335192,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 241939.990335192
 		},
 		{
-			"time": 243161.709792207,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 243161.709792207
 		},
 		{
-			"time": 244111.936036551,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 244111.936036551
 		},
 		{
-			"time": 245333.655493564,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 245333.655493564
 		},
 		{
-			"time": 246283.881737907,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 246283.881737907
 		},
 		{
-			"time": 247369.854588586,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 247369.854588586
 		},
 		{
-			"time": 248455.827439264,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 248455.827439264
 		},
 		{
-			"time": 249541.800289943,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 249541.800289943
 		},
 		{
-			"time": 250627.773140623,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 250627.773140623
 		},
 		{
-			"time": 251713.745991302,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 251713.745991302
 		},
 		{
-			"time": 252935.465448315,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 252935.465448315
 		},
 		{
-			"time": 254021.438298993,
 			"arguments": {
 				"char": "mobian_bf"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 254021.438298993
 		},
 		{
-			"time": 254971.664543337,
 			"arguments": {
 				"char": "mighty"
 			},
-			"name": "Camera Follow"
+			"name": "Camera Follow",
+			"time": 254971.664543337
 		}
 	]
 }
